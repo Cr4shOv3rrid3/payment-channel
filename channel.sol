@@ -38,7 +38,6 @@ contract Channel {
 			if (!channelRecipient.send(value)) throw;
 			selfdestruct(channelSender);
 		}
-
 	}
 
 	function ChannelTimeout(){
@@ -47,5 +46,4 @@ contract Channel {
 
 		selfdestruct(channelSender);
 	}
-
 }
