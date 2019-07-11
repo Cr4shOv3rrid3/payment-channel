@@ -46,4 +46,5 @@ contract Channel {
 
 		selfdestruct(channelSender);
 	}
+	
 }
